@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5DF0DB1C31332F003D7521 /* TLSNavigationBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0BB1C31332F003D7521 /* TLSNavigationBaseController.m */; };
+		AB5DF0DC1C31332F003D7521 /* TLSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0BD1C31332F003D7521 /* TLSNavigationController.m */; };
+		AB5DF0DD1C31332F003D7521 /* TLSPopUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0C11C31332F003D7521 /* TLSPopUpMenu.m */; };
+		AB5DF0DE1C31332F003D7521 /* TLSPopUpMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0C31C31332F003D7521 /* TLSPopUpMenuCell.m */; };
+		AB5DF0DF1C31332F003D7521 /* TLSPopUpMenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0C51C31332F003D7521 /* TLSPopUpMenuObject.m */; };
+		AB5DF0E01C31332F003D7521 /* NSDate+TLS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0C81C31332F003D7521 /* NSDate+TLS.m */; };
+		AB5DF0E11C31332F003D7521 /* NSString+TLS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0CA1C31332F003D7521 /* NSString+TLS.m */; };
+		AB5DF0E21C31332F003D7521 /* UIImage+TLS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0CC1C31332F003D7521 /* UIImage+TLS.m */; };
+		AB5DF0E31C31332F003D7521 /* UIView+TLS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0CE1C31332F003D7521 /* UIView+TLS.m */; };
+		AB5DF0E41C31332F003D7521 /* UIViewController+TLS.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0D01C31332F003D7521 /* UIViewController+TLS.m */; };
+		AB5DF0E51C31332F003D7521 /* TLSDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0D31C31332F003D7521 /* TLSDateTool.m */; };
+		AB5DF0E61C31332F003D7521 /* TLSDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0D51C31332F003D7521 /* TLSDeviceTool.m */; };
+		AB5DF0E71C31332F003D7521 /* TLSFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0D71C31332F003D7521 /* TLSFileTool.m */; };
+		AB5DF0E81C31332F003D7521 /* TLSUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0DA1C31332F003D7521 /* TLSUITool.m */; };
+		AB5DF0EC1C31343C003D7521 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0EB1C31343C003D7521 /* NetworkManager.m */; };
+		AB5DF0F01C31348B003D7521 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0EF1C31348B003D7521 /* DataManager.m */; };
+		AB5DF0FD1C313624003D7521 /* LEOScanCodeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0FA1C313624003D7521 /* LEOScanCodeDB.m */; };
+		AB5DF0FE1C313624003D7521 /* LEOScanCodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF0FC1C313624003D7521 /* LEOScanCodeObject.m */; };
+		AB5DF10C1C3136A7003D7521 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF1021C3136A7003D7521 /* FMDatabase.m */; };
+		AB5DF10D1C3136A7003D7521 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF1041C3136A7003D7521 /* FMDatabaseAdditions.m */; };
+		AB5DF10E1C3136A7003D7521 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF1061C3136A7003D7521 /* FMDatabasePool.m */; };
+		AB5DF10F1C3136A7003D7521 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF1081C3136A7003D7521 /* FMDatabaseQueue.m */; };
+		AB5DF1101C3136A7003D7521 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF10B1C3136A7003D7521 /* FMResultSet.m */; };
+		AB5DF1131C313801003D7521 /* LEODESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5DF1121C313801003D7521 /* LEODESEncrypt.m */; };
+		AB5DF1151C313821003D7521 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5DF1141C313821003D7521 /* libsqlite3.0.tbd */; };
 		AB689F591C31091E00C4C80B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB689F581C31091E00C4C80B /* main.m */; };
 		AB689F5C1C31091E00C4C80B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB689F5B1C31091E00C4C80B /* AppDelegate.m */; };
 		AB689F5F1C31091E00C4C80B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB689F5E1C31091E00C4C80B /* ViewController.m */; };
@@ -15,6 +40,7 @@
 		AB689F671C31091E00C4C80B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB689F651C31091E00C4C80B /* LaunchScreen.storyboard */; };
 		AB689F721C31091E00C4C80B /* ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB689F711C31091E00C4C80B /* ToolTests.m */; };
 		AB689F7D1C31091E00C4C80B /* ToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB689F7C1C31091E00C4C80B /* ToolUITests.m */; };
+		ABFB1FC31C3138CB006E8A73 /* TLSLocalNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFB1FC21C3138CB006E8A73 /* TLSLocalNotificationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB5DF0BA1C31332F003D7521 /* TLSNavigationBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSNavigationBaseController.h; sourceTree = "<group>"; };
+		AB5DF0BB1C31332F003D7521 /* TLSNavigationBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSNavigationBaseController.m; sourceTree = "<group>"; };
+		AB5DF0BC1C31332F003D7521 /* TLSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSNavigationController.h; sourceTree = "<group>"; };
+		AB5DF0BD1C31332F003D7521 /* TLSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSNavigationController.m; sourceTree = "<group>"; };
+		AB5DF0C01C31332F003D7521 /* TLSPopUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSPopUpMenu.h; sourceTree = "<group>"; };
+		AB5DF0C11C31332F003D7521 /* TLSPopUpMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSPopUpMenu.m; sourceTree = "<group>"; };
+		AB5DF0C21C31332F003D7521 /* TLSPopUpMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSPopUpMenuCell.h; sourceTree = "<group>"; };
+		AB5DF0C31C31332F003D7521 /* TLSPopUpMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSPopUpMenuCell.m; sourceTree = "<group>"; };
+		AB5DF0C41C31332F003D7521 /* TLSPopUpMenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSPopUpMenuObject.h; sourceTree = "<group>"; };
+		AB5DF0C51C31332F003D7521 /* TLSPopUpMenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSPopUpMenuObject.m; sourceTree = "<group>"; };
+		AB5DF0C71C31332F003D7521 /* NSDate+TLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TLS.h"; sourceTree = "<group>"; };
+		AB5DF0C81C31332F003D7521 /* NSDate+TLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TLS.m"; sourceTree = "<group>"; };
+		AB5DF0C91C31332F003D7521 /* NSString+TLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TLS.h"; sourceTree = "<group>"; };
+		AB5DF0CA1C31332F003D7521 /* NSString+TLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TLS.m"; sourceTree = "<group>"; };
+		AB5DF0CB1C31332F003D7521 /* UIImage+TLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TLS.h"; sourceTree = "<group>"; };
+		AB5DF0CC1C31332F003D7521 /* UIImage+TLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TLS.m"; sourceTree = "<group>"; };
+		AB5DF0CD1C31332F003D7521 /* UIView+TLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TLS.h"; sourceTree = "<group>"; };
+		AB5DF0CE1C31332F003D7521 /* UIView+TLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TLS.m"; sourceTree = "<group>"; };
+		AB5DF0CF1C31332F003D7521 /* UIViewController+TLS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TLS.h"; sourceTree = "<group>"; };
+		AB5DF0D01C31332F003D7521 /* UIViewController+TLS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TLS.m"; sourceTree = "<group>"; };
+		AB5DF0D21C31332F003D7521 /* TLSDateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSDateTool.h; sourceTree = "<group>"; };
+		AB5DF0D31C31332F003D7521 /* TLSDateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSDateTool.m; sourceTree = "<group>"; };
+		AB5DF0D41C31332F003D7521 /* TLSDeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSDeviceTool.h; sourceTree = "<group>"; };
+		AB5DF0D51C31332F003D7521 /* TLSDeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSDeviceTool.m; sourceTree = "<group>"; };
+		AB5DF0D61C31332F003D7521 /* TLSFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSFileTool.h; sourceTree = "<group>"; };
+		AB5DF0D71C31332F003D7521 /* TLSFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSFileTool.m; sourceTree = "<group>"; };
+		AB5DF0D81C31332F003D7521 /* TLSToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSToolHeader.h; sourceTree = "<group>"; };
+		AB5DF0D91C31332F003D7521 /* TLSUITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSUITool.h; sourceTree = "<group>"; };
+		AB5DF0DA1C31332F003D7521 /* TLSUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSUITool.m; sourceTree = "<group>"; };
+		AB5DF0EA1C31343C003D7521 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = TLSNetwork/NetworkManager.h; sourceTree = "<group>"; };
+		AB5DF0EB1C31343C003D7521 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = TLSNetwork/NetworkManager.m; sourceTree = "<group>"; };
+		AB5DF0EE1C31348B003D7521 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = TLSData/DataManager.h; sourceTree = "<group>"; };
+		AB5DF0EF1C31348B003D7521 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = TLSData/DataManager.m; sourceTree = "<group>"; };
+		AB5DF0F91C313624003D7521 /* LEOScanCodeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOScanCodeDB.h; sourceTree = "<group>"; };
+		AB5DF0FA1C313624003D7521 /* LEOScanCodeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOScanCodeDB.m; sourceTree = "<group>"; };
+		AB5DF0FB1C313624003D7521 /* LEOScanCodeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOScanCodeObject.h; sourceTree = "<group>"; };
+		AB5DF0FC1C313624003D7521 /* LEOScanCodeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOScanCodeObject.m; sourceTree = "<group>"; };
+		AB5DF1011C3136A7003D7521 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AB5DF1021C3136A7003D7521 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AB5DF1031C3136A7003D7521 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AB5DF1041C3136A7003D7521 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AB5DF1051C3136A7003D7521 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AB5DF1061C3136A7003D7521 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AB5DF1071C3136A7003D7521 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AB5DF1081C3136A7003D7521 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AB5DF1091C3136A7003D7521 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AB5DF10A1C3136A7003D7521 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AB5DF10B1C3136A7003D7521 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AB5DF1111C313801003D7521 /* LEODESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEODESEncrypt.h; sourceTree = "<group>"; };
+		AB5DF1121C313801003D7521 /* LEODESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEODESEncrypt.m; sourceTree = "<group>"; };
+		AB5DF1141C313821003D7521 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		AB689F541C31091D00C4C80B /* Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB689F581C31091E00C4C80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB689F5A1C31091E00C4C80B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +128,8 @@
 		AB689F781C31091E00C4C80B /* ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB689F7C1C31091E00C4C80B /* ToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolUITests.m; sourceTree = "<group>"; };
 		AB689F7E1C31091E00C4C80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFB1FC11C3138CB006E8A73 /* TLSLocalNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLSLocalNotificationManager.h; path = TLSNetwork/TLSLocalNotificationManager.h; sourceTree = "<group>"; };
+		ABFB1FC21C3138CB006E8A73 /* TLSLocalNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLSLocalNotificationManager.m; path = TLSNetwork/TLSLocalNotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5DF1151C313821003D7521 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +158,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB5DF0B91C31332F003D7521 /* TLSBase */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0BA1C31332F003D7521 /* TLSNavigationBaseController.h */,
+				AB5DF0BB1C31332F003D7521 /* TLSNavigationBaseController.m */,
+				AB5DF0BC1C31332F003D7521 /* TLSNavigationController.h */,
+				AB5DF0BD1C31332F003D7521 /* TLSNavigationController.m */,
+			);
+			path = TLSBase;
+			sourceTree = "<group>";
+		};
+		AB5DF0BE1C31332F003D7521 /* TLSControls */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0BF1C31332F003D7521 /* TLSPopUpMenu */,
+			);
+			path = TLSControls;
+			sourceTree = "<group>";
+		};
+		AB5DF0BF1C31332F003D7521 /* TLSPopUpMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0C01C31332F003D7521 /* TLSPopUpMenu.h */,
+				AB5DF0C11C31332F003D7521 /* TLSPopUpMenu.m */,
+				AB5DF0C21C31332F003D7521 /* TLSPopUpMenuCell.h */,
+				AB5DF0C31C31332F003D7521 /* TLSPopUpMenuCell.m */,
+				AB5DF0C41C31332F003D7521 /* TLSPopUpMenuObject.h */,
+				AB5DF0C51C31332F003D7521 /* TLSPopUpMenuObject.m */,
+			);
+			path = TLSPopUpMenu;
+			sourceTree = "<group>";
+		};
+		AB5DF0C61C31332F003D7521 /* TLSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0C71C31332F003D7521 /* NSDate+TLS.h */,
+				AB5DF0C81C31332F003D7521 /* NSDate+TLS.m */,
+				AB5DF0C91C31332F003D7521 /* NSString+TLS.h */,
+				AB5DF0CA1C31332F003D7521 /* NSString+TLS.m */,
+				AB5DF0CB1C31332F003D7521 /* UIImage+TLS.h */,
+				AB5DF0CC1C31332F003D7521 /* UIImage+TLS.m */,
+				AB5DF0CD1C31332F003D7521 /* UIView+TLS.h */,
+				AB5DF0CE1C31332F003D7521 /* UIView+TLS.m */,
+				AB5DF0CF1C31332F003D7521 /* UIViewController+TLS.h */,
+				AB5DF0D01C31332F003D7521 /* UIViewController+TLS.m */,
+			);
+			path = TLSExtension;
+			sourceTree = "<group>";
+		};
+		AB5DF0D11C31332F003D7521 /* TLSTool */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0D21C31332F003D7521 /* TLSDateTool.h */,
+				AB5DF0D31C31332F003D7521 /* TLSDateTool.m */,
+				AB5DF0D41C31332F003D7521 /* TLSDeviceTool.h */,
+				AB5DF0D51C31332F003D7521 /* TLSDeviceTool.m */,
+				AB5DF0D61C31332F003D7521 /* TLSFileTool.h */,
+				AB5DF0D71C31332F003D7521 /* TLSFileTool.m */,
+				AB5DF0D81C31332F003D7521 /* TLSToolHeader.h */,
+				AB5DF0D91C31332F003D7521 /* TLSUITool.h */,
+				AB5DF0DA1C31332F003D7521 /* TLSUITool.m */,
+			);
+			path = TLSTool;
+			sourceTree = "<group>";
+		};
+		AB5DF0E91C3133DE003D7521 /* TLSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0EA1C31343C003D7521 /* NetworkManager.h */,
+				AB5DF0EB1C31343C003D7521 /* NetworkManager.m */,
+				ABFB1FC11C3138CB006E8A73 /* TLSLocalNotificationManager.h */,
+				ABFB1FC21C3138CB006E8A73 /* TLSLocalNotificationManager.m */,
+			);
+			name = TLSNetwork;
+			sourceTree = "<group>";
+		};
+		AB5DF0ED1C31345D003D7521 /* TLSData */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0F81C313624003D7521 /* DB */,
+				AB5DF0EE1C31348B003D7521 /* DataManager.h */,
+				AB5DF0EF1C31348B003D7521 /* DataManager.m */,
+			);
+			name = TLSData;
+			sourceTree = "<group>";
+		};
+		AB5DF0F81C313624003D7521 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF0F91C313624003D7521 /* LEOScanCodeDB.h */,
+				AB5DF0FA1C313624003D7521 /* LEOScanCodeDB.m */,
+				AB5DF0FB1C313624003D7521 /* LEOScanCodeObject.h */,
+				AB5DF0FC1C313624003D7521 /* LEOScanCodeObject.m */,
+				AB5DF1111C313801003D7521 /* LEODESEncrypt.h */,
+				AB5DF1121C313801003D7521 /* LEODESEncrypt.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		AB5DF0FF1C3136A7003D7521 /* RelyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF1001C3136A7003D7521 /* FMDB */,
+			);
+			path = RelyLibrary;
+			sourceTree = "<group>";
+		};
+		AB5DF1001C3136A7003D7521 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DF1011C3136A7003D7521 /* FMDatabase.h */,
+				AB5DF1021C3136A7003D7521 /* FMDatabase.m */,
+				AB5DF1031C3136A7003D7521 /* FMDatabaseAdditions.h */,
+				AB5DF1041C3136A7003D7521 /* FMDatabaseAdditions.m */,
+				AB5DF1051C3136A7003D7521 /* FMDatabasePool.h */,
+				AB5DF1061C3136A7003D7521 /* FMDatabasePool.m */,
+				AB5DF1071C3136A7003D7521 /* FMDatabaseQueue.h */,
+				AB5DF1081C3136A7003D7521 /* FMDatabaseQueue.m */,
+				AB5DF1091C3136A7003D7521 /* FMDB.h */,
+				AB5DF10A1C3136A7003D7521 /* FMResultSet.h */,
+				AB5DF10B1C3136A7003D7521 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
 		AB689F4B1C31091D00C4C80B = {
 			isa = PBXGroup;
 			children = (
+				AB5DF1141C313821003D7521 /* libsqlite3.0.tbd */,
 				AB689F561C31091D00C4C80B /* Tool */,
 				AB689F701C31091E00C4C80B /* ToolTests */,
 				AB689F7B1C31091E00C4C80B /* ToolUITests */,
@@ -105,6 +311,13 @@
 				AB689F5B1C31091E00C4C80B /* AppDelegate.m */,
 				AB689F5D1C31091E00C4C80B /* ViewController.h */,
 				AB689F5E1C31091E00C4C80B /* ViewController.m */,
+				AB5DF0FF1C3136A7003D7521 /* RelyLibrary */,
+				AB5DF0ED1C31345D003D7521 /* TLSData */,
+				AB5DF0E91C3133DE003D7521 /* TLSNetwork */,
+				AB5DF0B91C31332F003D7521 /* TLSBase */,
+				AB5DF0BE1C31332F003D7521 /* TLSControls */,
+				AB5DF0C61C31332F003D7521 /* TLSExtension */,
+				AB5DF0D11C31332F003D7521 /* TLSTool */,
 				AB689F601C31091E00C4C80B /* Main.storyboard */,
 				AB689F631C31091E00C4C80B /* Assets.xcassets */,
 				AB689F651C31091E00C4C80B /* LaunchScreen.storyboard */,
@@ -270,9 +483,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5DF0E01C31332F003D7521 /* NSDate+TLS.m in Sources */,
+				AB5DF0DC1C31332F003D7521 /* TLSNavigationController.m in Sources */,
+				AB5DF0E21C31332F003D7521 /* UIImage+TLS.m in Sources */,
 				AB689F5F1C31091E00C4C80B /* ViewController.m in Sources */,
+				AB5DF0FD1C313624003D7521 /* LEOScanCodeDB.m in Sources */,
+				AB5DF0E61C31332F003D7521 /* TLSDeviceTool.m in Sources */,
+				AB5DF1101C3136A7003D7521 /* FMResultSet.m in Sources */,
+				AB5DF0E81C31332F003D7521 /* TLSUITool.m in Sources */,
+				AB5DF0DF1C31332F003D7521 /* TLSPopUpMenuObject.m in Sources */,
+				AB5DF1131C313801003D7521 /* LEODESEncrypt.m in Sources */,
+				AB5DF0E51C31332F003D7521 /* TLSDateTool.m in Sources */,
+				AB5DF10C1C3136A7003D7521 /* FMDatabase.m in Sources */,
+				AB5DF10F1C3136A7003D7521 /* FMDatabaseQueue.m in Sources */,
+				AB5DF10D1C3136A7003D7521 /* FMDatabaseAdditions.m in Sources */,
 				AB689F5C1C31091E00C4C80B /* AppDelegate.m in Sources */,
+				AB5DF0E31C31332F003D7521 /* UIView+TLS.m in Sources */,
+				AB5DF10E1C3136A7003D7521 /* FMDatabasePool.m in Sources */,
+				AB5DF0E71C31332F003D7521 /* TLSFileTool.m in Sources */,
+				AB5DF0DB1C31332F003D7521 /* TLSNavigationBaseController.m in Sources */,
 				AB689F591C31091E00C4C80B /* main.m in Sources */,
+				AB5DF0FE1C313624003D7521 /* LEOScanCodeObject.m in Sources */,
+				AB5DF0E11C31332F003D7521 /* NSString+TLS.m in Sources */,
+				AB5DF0E41C31332F003D7521 /* UIViewController+TLS.m in Sources */,
+				AB5DF0DD1C31332F003D7521 /* TLSPopUpMenu.m in Sources */,
+				ABFB1FC31C3138CB006E8A73 /* TLSLocalNotificationManager.m in Sources */,
+				AB5DF0EC1C31343C003D7521 /* NetworkManager.m in Sources */,
+				AB5DF0F01C31348B003D7521 /* DataManager.m in Sources */,
+				AB5DF0DE1C31332F003D7521 /* TLSPopUpMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +736,7 @@
 				AB689F831C31091E00C4C80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB689F841C31091E00C4C80B /* Build configuration list for PBXNativeTarget "ToolTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +745,7 @@
 				AB689F861C31091E00C4C80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB689F871C31091E00C4C80B /* Build configuration list for PBXNativeTarget "ToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +754,7 @@
 				AB689F891C31091E00C4C80B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

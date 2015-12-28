@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TLSToolHeader.h"
+#import "TLSPopUpMenu.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    btton.frame = CGRectMake(100, 100, 40, 40);
+    [btton addTarget:self action:@selector(onadd:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btton];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)onadd:(UIButton *)BUTTON
+{
+    NSMutableArray *array = [NSMutableArray array];
+    for (int i = 0; i < 30; i++) {
+        TLSPopUpMenuObject *object = [[TLSPopUpMenuObject alloc] init];
+        object.iconUrl = [NSString stringWithFormat:@"iconUrl%d",i];
+        object.domain = [NSString stringWithFormat:@"domain%d",i];
+        object.webUrl = [NSString stringWithFormat:@"webUrl%d",i];
+        [array addObject:object];
+    }
+    TLSPopUpMenu* menu = [[TLSPopUpMenu alloc] initWithSize:CGSizeMake(217, 220) Array:array];
+    [menu showMenuInView:BUTTON];
+    [menu setSelectBlock:^(TLSPopUpMenuObject *webinfo) {
+        NSLog(@"%@",webinfo);
+
+    }];
+
 }
 
 @end
